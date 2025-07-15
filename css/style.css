@@ -871,7 +871,7 @@ nav ul li a:hover {
 
   .hero .content {
     position: absolute;
-    bottom: 8%;
+    bottom: 12%;
     left: 15%;
     right: auto;
     max-width: 90%;
@@ -891,11 +891,17 @@ nav ul li a:hover {
   .hero .content p {
     font-size: 0.75rem;
     line-height: 1;
-    margin: 0.03rem auto 0.2rem;
+    margin: 0.03rem auto 0.1rem;
     max-width: 35ch;
     white-space: normal;
     overflow-wrap: break-word;
   }
+
+  .hero .content .btn {
+    margin-top: 0.2rem;
+    display: inline-block;
+  }
+
 
   .btn {
     padding: 0.4rem 0.8rem;
@@ -931,6 +937,7 @@ nav ul li a:hover {
   .contact-info p {
     text-align: left;
   }
+
   .contact-title {
     font-size: 2rem;
     padding: 0 1rem;
