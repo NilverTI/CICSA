@@ -361,7 +361,6 @@ nav ul li a:hover {
   flex: 1;
   min-width: 280px;
   color: white;
-  font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -942,6 +941,10 @@ nav ul li a:hover {
     font-size: 2rem;
     padding: 0 1rem;
     line-height: 1.2;
+  }
+
+  footer-copy {
+    text-align: center;
   }
 }
 
