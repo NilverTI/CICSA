@@ -26,27 +26,28 @@ Este proyecto ha sido desarrollado utilizando únicamente **HTML, CSS y JavaScri
 
 ---
 
-## 🗂️ Estructura del proyecto
+## 📁 Estructura del proyecto
 
+```
 CICSA/
 ├── css/
-│ └── style.css
+│   └── style.css
 ├── img/
 ├── js/
-│ └── main.js
+│   └── main.js
 ├── index.html
 └── README.md
-
+```
 
 ---
 
 ## 🎯 Objetivo
 
-Brindar una **presencia digital clara, rápida y profesional** al Centro Médico CICSA, permitiendo a los visitantes conocer fácilmente sus servicios, ubicación, contacto y horarios, desde cualquier dispositivo.
+Brindar una **presencia digital clara, rápida y profesional** al Centro Médico CICSA, permitiendo a los usuarios visualizar fácilmente sus servicios, ubicación, contacto y horarios desde cualquier dispositivo.
 
 ---
 
 ## © Derechos
 
-Desarrollado por **Nilver T.I**.  
-Todos los derechos reservados para el **NILVER T.I**.
+Desarrollado por **[Nilver T.I](https://nilverti.bio.link/)**.  
+Todos los derechos reservados para **Centro Médico CICSA**.
