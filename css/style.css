@@ -49,12 +49,15 @@ nav {
 
 .menu-toggle {
   display: none;
-  font-size: 2rem;
+  font-size: 2.5rem;
   cursor: pointer;
-  color: #000;
-  z-index: 1100;
+  color: white;
+  z-index: 1101;
   background: none;
   border: none;
+  position: fixed;
+  top: 15px;
+  right: 20px;
 }
 
 /* === NAV MENU === */
@@ -924,6 +927,15 @@ nav ul li a:hover {
 
   .service-card p {
     font-size: 0.9rem;
+  }
+
+  .contact-info p {
+    text-align: left;
+  }
+  .contact-title {
+    font-size: 2rem;
+    padding: 0 1rem;
+    line-height: 1.2;
   }
 }
 
