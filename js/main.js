@@ -28,15 +28,15 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.addEventListener('click', (e) => {
-  const clickedOutsideMenu = !menu.contains(e.target);
-  const clickedOutsideToggle = !toggle.contains(e.target);
+    const clickedOutsideMenu = !menu.contains(e.target);
+    const clickedOutsideToggle = !toggle.contains(e.target);
 
-  if (menu.classList.contains('show') && clickedOutsideMenu && clickedOutsideToggle) {
-    menu.classList.remove('show');
-    toggle.classList.remove('open');
-    toggle.textContent = '☰';
-  }
-});
+    if (menu.classList.contains('show') && clickedOutsideMenu && clickedOutsideToggle) {
+      menu.classList.remove('show');
+      toggle.classList.remove('open');
+      toggle.textContent = '☰';
+    }
+  });
 
   // === Slider Hero ===
   let currentSlide = 0;
@@ -158,14 +158,21 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+// Validación del formulario de contacto
 const form = document.querySelector('.contact-form');
-  const flashDiv = document.getElementById('flash-messages');
+const flashDiv = document.getElementById('flash-messages');
 
-  form.addEventListener('submit', (e) => {
-    // Mostrar mensaje inmediatamente
-    flashDiv.innerHTML = '<p class="success">Mensaje enviado correctamente</p>';
-    // Ocultar luego de 5 segundos
+form.addEventListener('submit', (e) => {
+  if (!form.checkValidity()) {
+    e.preventDefault(); // Evita el envío si no es válido
+    flashDiv.innerHTML = '<p class="error">Por favor, completa todos los campos correctamente.</p>';
     setTimeout(() => flashDiv.innerHTML = '', 5000);
-  });
+    return;
+  }
 
-  
+  // Muestra el mensaje de éxito y permite que el formulario se envíe
+  flashDiv.innerHTML = '<p class="success">Mensaje enviado correctamente</p>';
+  setTimeout(() => flashDiv.innerHTML = '', 5000);
+});
+
+
