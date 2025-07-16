@@ -49,5 +49,10 @@ Brindar una **presencia digital clara, rápida y profesional** al Centro Médico
 
 ## © Derechos
 
-Desarrollado por **[Nilver T.I](https://nilverti.bio.link/)**.  
+Desarrollado por:
+- Barreto Martinez Frandux .
+- Cajo Vilcabana Diana Patricia.
+- Cruz Lozada Stephany Paloma.
+- Goicochea Flores Euler Ivan.
+**[- Tantalean Inga Nilver](https://nilverti.bio.link/)**
 Todos los derechos reservados para **Centro Médico CICSA**.
