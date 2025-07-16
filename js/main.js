@@ -171,8 +171,12 @@ form.addEventListener('submit', (e) => {
   }
 
   // Muestra el mensaje de éxito y permite que el formulario se envíe
-  flashDiv.innerHTML = '<p class="success">Mensaje enviado correctamente</p>';
-  setTimeout(() => flashDiv.innerHTML = '', 5000);
+  if (window.location.hash === '#contacto') {
+    flashDiv.innerHTML = '<p class="success">Mensaje enviado correctamente</p>';
+    setTimeout(() => flashDiv.innerHTML = '', 5000);
+  }
 });
+
+
 
 
