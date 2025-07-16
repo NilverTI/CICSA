@@ -72,18 +72,32 @@ nav {
 
 /* === NAV MENU === */
 nav ul {
+  list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li a {
-  padding: 0.5rem;
-  font-weight: bold;
-  transition: color 0.3s ease;
+  text-decoration: none;
+  color: #333;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  position: relative;
 }
 
+/* Efecto al pasar el mouse: tipo botón cuadrado */
 nav ul li a:hover {
-  color: #810096;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 0 2px #ba19c0 inset;
+  color: #ba19c0;
+}
+
+/* Enlace activo: solo color de texto + línea inferior */
+nav ul li a.active {
+  color: #ba19c0;
 }
 
 /* ==== SLIDER ==== */
