@@ -1,3 +1,13 @@
+/* 
+   ___  _____    ___
+  /   ||  _  |  /   | _
+ / /| || |/' | / /| |(_)
+/ /_| ||  /| |/ /_| |
+\_CONEXIÓN INESTABLE| _
+    |_/ \___/     |_/(_)
+
+*/
+
 /* ==== RESET BÁSICO ==== */
 * {
   margin: 0;
@@ -322,7 +332,8 @@ nav ul li a:hover {
 }
 
 
-.card:hover {
+.card:hover,
+.cardn:hover {
   transform: translateY(-5px);
   box-shadow:
     0 0 5px #efcaf5,
@@ -330,12 +341,14 @@ nav ul li a:hover {
     0 0 10px #efcaf5;
 }
 
-.card img {
+.card img,
+.cardn img {
   max-width: 100%;
   border-radius: 6px;
 }
 
-.card h3 {
+.card h3,
+.cardn h3 {
   margin-top: 1rem;
   color: #333;
 }

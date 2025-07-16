@@ -1,3 +1,13 @@
+/* 
+   ___  _____    ___
+  /   ||  _  |  /   | _
+ / /| || |/' | / /| |(_)
+/ /_| ||  /| |/ /_| |
+\_CONEXIÓN INESTABLE| _
+    |_/ \___/     |_/(_)
+
+*/
+
 document.addEventListener("DOMContentLoaded", () => {
   // === Menú Responsive ===
   const toggle = document.getElementById('menu-toggle');
