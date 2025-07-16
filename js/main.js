@@ -27,6 +27,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  document.addEventListener('click', (e) => {
+  const clickedOutsideMenu = !menu.contains(e.target);
+  const clickedOutsideToggle = !toggle.contains(e.target);
+
+  if (menu.classList.contains('show') && clickedOutsideMenu && clickedOutsideToggle) {
+    menu.classList.remove('show');
+    toggle.classList.remove('open');
+    toggle.textContent = '☰';
+  }
+});
+
   // === Slider Hero ===
   let currentSlide = 0;
   const slides = document.querySelectorAll(".hero-slide");
@@ -100,7 +111,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
-
 
 document.addEventListener("DOMContentLoaded", () => {
   let currentSlide = 0;
