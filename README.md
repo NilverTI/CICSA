@@ -54,5 +54,5 @@ Desarrollado por:
 - Cajo Vilcabana Diana Patricia.
 - Cruz Lozada Stephany Paloma.
 - Goicochea Flores Euler Ivan.
-**[- Tantalean Inga Nilver](https://nilverti.bio.link/)**
+- **[Tantalean Inga Nilver.](https://nilverti.bio.link/)**
 Todos los derechos reservados para **Centro Médico CICSA**.
