@@ -158,25 +158,21 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Validación del formulario de contacto
-const form = document.querySelector('.contact-form');
-const flashDiv = document.getElementById('flash-messages');
+document.addEventListener('DOMContentLoaded', () => {
+    if (window.location.hash === '#contacto') {
+      const flashDiv = document.getElementById('flash-messages');
 
-form.addEventListener('submit', (e) => {
-  if (!form.checkValidity()) {
-    e.preventDefault(); // Evita el envío si no es válido
-    flashDiv.innerHTML = '<p class="error">Por favor, completa todos los campos correctamente.</p>';
-    setTimeout(() => flashDiv.innerHTML = '', 5000);
-    return;
-  }
+      // Mostrar mensaje
+      flashDiv.innerHTML = '<p class="success">Mensaje enviado correctamente</p>';
+      setTimeout(() => flashDiv.innerHTML = '', 5000);
 
-  // Muestra el mensaje de éxito y permite que el formulario se envíe
-  if (window.location.hash === '#contacto') {
-    flashDiv.innerHTML = '<p class="success">Mensaje enviado correctamente</p>';
-    setTimeout(() => flashDiv.innerHTML = '', 5000);
-  }
-});
-
+      // Hacer scroll suave al formulario
+      const target = document.getElementById('contacto');
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  });
 
 
 
