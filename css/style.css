@@ -307,6 +307,21 @@ nav ul li a:hover {
   box-sizing: border-box;
 }
 
+.cardn {
+  background: #f8f8f8;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 300px;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.4s ease;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+
 .card:hover {
   transform: translateY(-5px);
   box-shadow:
