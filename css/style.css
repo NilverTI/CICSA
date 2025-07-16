@@ -768,6 +768,13 @@ nav ul li a.active {
   margin-top: 5px;
 }
 
+.flash-messages p.success {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
 @media (max-width: 900px) {
   .card {
     flex: 1 1 calc(50% - 2rem);

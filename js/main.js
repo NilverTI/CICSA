@@ -158,4 +158,14 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+const form = document.querySelector('.contact-form');
+  const flashDiv = document.getElementById('flash-messages');
 
+  form.addEventListener('submit', (e) => {
+    // Mostrar mensaje inmediatamente
+    flashDiv.innerHTML = '<p class="success">Mensaje enviado correctamente</p>';
+    // Ocultar luego de 5 segundos
+    setTimeout(() => flashDiv.innerHTML = '', 5000);
+  });
+
+  
