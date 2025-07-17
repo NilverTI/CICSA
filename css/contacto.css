@@ -1,0 +1,107 @@
+/* 
+   ___  _____    ___
+  /   ||  _  |  /   | _
+ / /| || |/' | / /| |(_)
+/ /_| ||  /| |/ /_| |
+\_CONEXIÓN INESTABLE| _
+    |_/ \___/     |_/(_)
+
+  https://cicsa.netlify.app/
+*/
+
+/* ==== CONTACTO ==== */
+#contacto {
+  background: #810096;
+  padding: 5rem 1rem;
+}
+
+.contact-box {
+  background: #0bbfc8;
+  max-width: 1200px;
+  margin: auto;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.contact-title {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: space-between;
+}
+
+.contact-info,
+.contact-form {
+  flex: 1;
+  min-width: 280px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.contact-info i {
+  color: #dd02ff;
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+
+.contact-info h3,
+.contact-form h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.contact-info p {
+  margin: 0.7rem 0;
+  line-height: 1.5;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background: #222;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #444;
+}
+
+#map {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin-top: 1rem;
+}

@@ -1,0 +1,193 @@
+/* 
+   ___  _____    ___
+  /   ||  _  |  /   | _
+ / /| || |/' | / /| |(_)
+/ /_| ||  /| |/ /_| |
+\_CONEXIÓN INESTABLE| _
+    |_/ \___/     |_/(_)
+
+  https://cicsa.netlify.app/
+*/
+
+/* === FOOTER INICIO=== */
+/* ESTILO GENERAL */
+.footer {
+  background-color: #f8f3ee;
+  color: #1a1a1a;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Mostrar/Ocultar footers según pantalla */
+.desktop-footer {
+  display: none;
+}
+
+.mobile-footer {
+  display: block;
+}
+
+/* FOOTER ESCRITORIO */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Mostrar/Ocultar footers */
+.desktop-footer {
+  display: none;
+}
+
+.mobile-footer {
+  display: block;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-info i {
+  color: #00f7ff;
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+
+.footer-column h5,
+.footer-info h4 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  color: #fff;
+}
+
+.btn-login {
+  display: inline-block;
+  background-color: #9b2acf;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 30px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  flex-wrap: wrap;
+  color: #bbb;
+  font-size: 13px;
+}
+
+.footer-bottom .legal {
+  text-align: left;
+}
+
+.footer-bottom .social {
+  text-align: right;
+}
+
+.footer-bottom .social a img {
+  vertical-align: middle;
+}
+
+.footer-bottom a {
+  color: #59cfff;
+  text-decoration: none;
+}
+
+.social,
+.footer-social {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social img,
+.icons img {
+  width: 22px;
+  margin: 0 8px;
+}
+
+.social i {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.social i:hover {
+  transform: scale(1.2);
+  background-color: white;
+}
+
+/* Colores específicos */
+.social a.email i:hover {
+  color: #ff7f50;
+}
+
+.social a.facebook:hover i {
+  color: #1877f2;
+}
+
+.social a.whatsapp:hover i {
+  color: #25d366;
+}
+
+/* Estilo acordeón en móvil */
+.mobile-footer details {
+  margin-bottom: 15px;
+}
+
+.mobile-footer summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.mobile-footer ul {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.flash-messages .success {
+  background-color: #d4edda;
+  color: #000000;
+  padding: 12px;
+  border: 1px solid #c3e6cb;
+  border-radius: 6px;
+  margin-top: 15px;
+  font-size: 16px;
+  text-align: center;
+  animation: fadeIn 0.4s ease-in-out;
+}

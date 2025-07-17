@@ -1,0 +1,126 @@
+/* 
+   ___  _____    ___
+  /   ||  _  |  /   | _
+ / /| || |/' | / /| |(_)
+/ /_| ||  /| |/ /_| |
+\_CONEXIÓN INESTABLE| _
+    |_/ \___/     |_/(_)
+
+  https://cicsa.netlify.app/
+*/
+
+/* ==== SERVICES ==== */
+#services {
+  width: 100%;
+  background: #810096;
+  color: white;
+  padding: 8rem 2rem 6rem;
+  text-align: center;
+}
+
+#services h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+#services h4 {
+  font-weight: normal;
+  margin-bottom: 3rem;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem 12rem;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.service-card {
+  width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-card p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 2;
+  font-weight: bold;
+  color: #fff;
+}
+
+.service-card {
+  width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease,
+    border 0.3s ease;
+  cursor: pointer;
+}
+
+.service-card img {
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease;
+}
+
+.service-card {
+  width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease,
+    border 0.3s ease;
+  cursor: pointer;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  background-color: #06101a6e;
+  box-shadow: 0 0 15px 6px #89c0d6;
+  border: 2px solid #06101a6e;
+}
+
+.service-card img {
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease;
+}
+
+.icon-box {
+  width: 150px;
+  height: 150px;
+  background: transparent;
+  border: 2px solid #0bbfc8;
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.icon-box img {
+  width: 70%;
+  transform: rotate(-45deg);
+}

@@ -1,7 +1,6 @@
 # 🌐 Centro Médico CICSA
 
-## **[🔗VISTA WEB](https://cicsa.netlify.app/)**
-**[CENTRO MEDICO CICSA](https://cicsa.netlify.app/)**
+## **[🔗VISTA WEB](https://cicsa.netlify.app/)** : **[CENTRO MEDICO CICSA](https://cicsa.netlify.app/)**
 
 Sitio web oficial del **Centro Médico CICSA**, especializado en la realización de **exámenes médicos para licencias de conducir** en la ciudad de Ferreñafe, Perú.
 
@@ -31,10 +30,45 @@ Este proyecto ha sido desarrollado utilizando únicamente **HTML, CSS y JavaScri
 ```
 CICSA/
 ├── css/
+│   ├── contacto.css
+│   ├── footer.css
+│   ├── media.css
+│   ├── servicios.css
 │   └── style.css
+│
 ├── img/
+│   ├── 1.png
+│   ├── 2.png
+│   ├── 3.png
+│   ├── item1.jpg
+│   ├── item2.jpg
+│   ├── item3.jpg
+│   ├── logo.ico
+│   ├── logoCICSA.png
+│   ├── logoCICSA1.png
+│   ├── logoCICSA3.png
+│   ├── Member1.jpg
+│   ├── Member2.jpg
+│   ├── Member3.jpg
+│   ├── Member4.jpg
+│   ├── Member5.jpg
+│   ├── Member6.jpg
+│   ├── slide-one.jpg
+│   ├── slide-two.jpg
+│   └── slide-six.jpg
+│
 ├── js/
+│   ├── carga.js
 │   └── main.js
+│
+├── secciones/
+│   ├── contacto.html
+│   ├── footer.html
+│   ├── header.html
+│   ├── nosotros.html
+│   ├── servicios.html
+│   └── team.html
+│
 ├── index.html
 └── README.md
 ```

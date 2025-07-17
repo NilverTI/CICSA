@@ -1,0 +1,265 @@
+/* 
+   ___  _____    ___
+  /   ||  _  |  /   | _
+ / /| || |/' | / /| |(_)
+/ /_| ||  /| |/ /_| |
+\_CONEXIÓN INESTABLE| _
+    |_/ \___/     |_/(_)
+
+  https://cicsa.netlify.app/
+*/
+
+/* ==== RESPONSIVE ==== */
+@media (max-width: 900px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex: 1 1 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  .hero-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero .content {
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    right: 50%;
+    max-width: 30%;
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-radius: 10px;
+  }
+
+  .hero .content h1 {
+    font-size: 1.3rem;
+  }
+
+  .hero .content p {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.85rem;
+  }
+
+  .desktop-footer {
+    display: block;
+  }
+
+  .mobile-footer {
+    display: none;
+  }
+
+  .footer-social .icons a {
+    margin: 0 15px;
+    display: inline-block;
+  }
+
+  .footer-social i {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+
+  .footer-social a.email i:hover {
+    color: #ff7f50;
+  }
+
+  .footer-social a.facebook i:hover {
+    color: #1877f2;
+  }
+
+  .footer-social a.whatsapp i:hover {
+    color: #25d366;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    background: #0bbfc8;
+    padding-top: 3rem;
+    transition: top 0.4s ease-in-out;
+    z-index: 1000;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  nav ul.show {
+    top: 0;
+  }
+
+  nav ul li {
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul li a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+  }
+
+  nav ul li a:hover {
+    color: #000;
+    text-shadow: 1px 1px 3px #fff;
+  }
+
+  .cards,
+  .services-grid,
+  .contact-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero {
+    min-height: 60vh;
+  }
+
+  .hero .content {
+    padding: 1.2rem;
+    font-size: 0.95rem;
+    bottom: 10%;
+    left: 5%;
+    right: 5%;
+  }
+
+  .slide-btn {
+    font-size: 1.5rem;
+    padding: 0.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    min-height: 20vh;
+    position: relative;
+  }
+
+  .hero-slide {
+    background-size: 100%;
+    background-position: center 5%;
+  }
+
+  .hero .content {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+    right: auto;
+    max-width: 90%;
+    padding: 0;
+    background: none;
+    text-align: left;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+
+  .hero .content h1 {
+    font-size: 1rem;
+    margin-bottom: 0.1rem;
+    margin-top: 0.09rem;
+  }
+
+  .hero .content p {
+    font-size: 0.75rem;
+    line-height: 1;
+    margin: 0.03rem auto 0.1rem;
+    max-width: 35ch;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+
+  .hero .content .btn {
+    margin-top: 0.2rem;
+    display: inline-block;
+  }
+
+
+  .btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.60rem;
+    background: #810096;
+    color: white;
+    border-radius: 3px;
+  }
+
+  .service-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .icon-box {
+    width: 120px;
+    height: 120px;
+  }
+
+  .icon-box img {
+    width: 80%;
+  }
+
+  .service-card img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .service-card p {
+    font-size: 0.9rem;
+  }
+
+  .contact-info p {
+    text-align: left;
+  }
+
+  .contact-title {
+    font-size: 2rem;
+    padding: 0 1rem;
+    line-height: 1.2;
+  }
+
+  footer-copy {
+    text-align: center;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero .content h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero .content p {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .service-card p {
+    font-size: 0.9rem;
+  }
+}
