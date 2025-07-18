@@ -27,6 +27,25 @@
 
 <body>
 
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <a href="#"><img src="img/logoCICSA3.png" alt="Logo CICSA" class="logo" /></a>
+            <nav>
+                <div class="menu-toggle" id="menu-toggle">
+                    <span id="menu-icon">&#9776;</span>
+                </div>
+                <ul id="menu">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#team">Equipo Médico</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <!--Carga dinámica de secciones-->
     <div include-html="secciones/header.html"></div>
     <div include-html="secciones/nosotros.html"></div>
@@ -36,8 +55,8 @@
     <div include-html="secciones/footer.html"></div>
 
     <!--Carga dinámica de scripts-->
-    <script src="js/main.js"></script>
     <script src="js/carga.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

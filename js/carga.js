@@ -1,15 +1,12 @@
-/* 
-   ___  _____    ___
-  /   ||  _  |  /   | _
- / /| || |/' | / /| |(_)
-/ /_| ||  /| |/ /_| |
-\_CONEXIÓN INESTABLE| _
-    |_/ \___/     |_/(_)
-
-    https://cicsa.netlify.app/
-*/
-function incluirHTML() {
+function incluirHTML(callback) {
   const elementos = document.querySelectorAll('[include-html]');
+  let pendientes = elementos.length;
+
+  if (pendientes === 0 && typeof callback === "function") {
+    callback(); // No hay nada que incluir
+    return;
+  }
+
   elementos.forEach(el => {
     const archivo = el.getAttribute('include-html');
     fetch(archivo)
@@ -20,12 +17,27 @@ function incluirHTML() {
       .then(data => {
         el.innerHTML = data;
         el.removeAttribute('include-html');
-        incluirHTML(); // En caso de includes anidados
+        pendientes--;
+        if (pendientes === 0 && typeof callback === "function") {
+          callback(); // ✅ Todos los includes cargaron
+        } else {
+          incluirHTML(callback); // En caso de includes anidados
+        }
       })
       .catch(err => {
         el.innerHTML = `<p>${err.message}</p>`;
+        pendientes--;
+        if (pendientes === 0 && typeof callback === "function") {
+          callback();
+        }
       });
   });
 }
 
-document.addEventListener('DOMContentLoaded', incluirHTML);
+document.addEventListener('DOMContentLoaded', () => {
+  incluirHTML(() => {
+    if (typeof inicializarModales === "function") {
+      inicializarModales(); // ✅ Aquí se activan los eventos a los modales ya cargados
+    }
+  });
+});
