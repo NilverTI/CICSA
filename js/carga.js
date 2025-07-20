@@ -41,3 +41,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  incluirHTML(() => {
+    if (typeof inicializarModales === "function") {
+      inicializarModales();
+    }
+    if (typeof inicializarSliderHero === "function") {
+      inicializarSliderHero();
+    }
+  });
+});
+

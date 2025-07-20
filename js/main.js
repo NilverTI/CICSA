@@ -135,3 +135,38 @@ function inicializarModales() {
   });
 }
 
+
+function inicializarSliderHero() {
+  let currentSlide = 0;
+  const slides = document.querySelectorAll(".hero-slide");
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.remove("active");
+      if (i === index) slide.classList.add("active");
+    });
+  }
+
+  function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  function prevSlide() {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  const nextBtn = document.querySelector(".slide-btn.next");
+  const prevBtn = document.querySelector(".slide-btn.prev");
+
+  if (nextBtn && prevBtn) {
+    nextBtn.addEventListener("click", nextSlide);
+    prevBtn.addEventListener("click", prevSlide);
+  }
+
+  setInterval(nextSlide, 7000);
+  showSlide(currentSlide);
+}
+
+
