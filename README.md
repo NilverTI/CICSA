@@ -84,7 +84,6 @@ Brindar una **presencia digital clara, rápida y profesional** al Centro Médico
 ## © Derechos
 
 Desarrollado por:
-- Barreto Martinez Frandux .
 - Cajo Vilcabana Diana Patricia.
 - Cruz Lozada Stephany Paloma.
 - Goicochea Flores Euler Ivan.
