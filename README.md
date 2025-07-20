@@ -14,7 +14,7 @@ Este proyecto ha sido desarrollado utilizando únicamente **HTML, CSS y JavaScri
 - 📱 **Responsive design**: se adapta a diferentes dispositivos (móviles, tablets, PCs).
 - 🎨 Paleta de colores sobria en **negro, blanco y rojo**, transmitiendo profesionalismo y confianza.
 - 🧭 **Footer informativo inteligente**:
-  - En escritorio: diseño tipo *AgroVision*, claro y organizado.
+  - En escritorio: diseño simple, claro y organizado.
   - En móviles: versión en acordeón para mejorar la navegación y usabilidad.
 - 📍 Información institucional destacada:
   - **Dirección:** Av. Augusto B. Leguía 740, Ferreñafe
