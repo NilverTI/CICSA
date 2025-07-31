@@ -12,16 +12,10 @@ Este proyecto ha sido desarrollado utilizando únicamente **HTML, CSS y JavaScri
 
 - 🎯 **Diseño personalizado y moderno**, adaptado a la identidad visual del centro.
 - 📱 **Responsive design**: se adapta a diferentes dispositivos (móviles, tablets, PCs).
-- 🎨 Paleta de colores sobria en **negro, blanco y rojo**, transmitiendo profesionalismo y confianza.
+- 🎨 Paleta de colores sobria en **Morado, Celeste y Blanco**, transmitiendo profesionalismo y confianza.
 - 🧭 **Footer informativo inteligente**:
   - En escritorio: diseño simple, claro y organizado.
   - En móviles: versión en acordeón para mejorar la navegación y usabilidad.
-- 📍 Información institucional destacada:
-  - **Dirección:** Av. Augusto B. Leguía 740, Ferreñafe
-  - **Teléfono:** +51 987 654 321
-  - **Correo electrónico:** smcicsaeirl@gmail.com
-  - **Horario de atención:** Lunes a Viernes, de 9:30 AM a 6:30 PM
-  - **Redes sociales:** enlace a Facebook
 
 ---
 
@@ -84,11 +78,8 @@ Brindar una **presencia digital clara, rápida y profesional** al Centro Médico
 ## © Derechos
 
 Desarrollado por:
-- Cajo Vilcabana Diana Patricia.
-- Cruz Lozada Stephany Paloma.
-- Goicochea Flores Euler Ivan.
-- **[Tantalean Inga Nilver.](https://nilverti.bio.link/)**
+- **[NILVER T.I](https://nilverti.bio.link/)**
 
 ---
 
-Todos los derechos reservados para **Centro Médico CICSA**.
+Todos los derechos reservados para **NILVER T.I**.
